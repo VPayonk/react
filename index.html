@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script></head>
+<body>
+
+<div id="root">
+
+</div>
+
+
+        <script>
+            const HellComponent = React.createClass({
+                render() {
+
+                    return React.createElement('div', {},
+                        React.createElement('h1', {}, `Hello, ${this.props.name}!`),
+                        React.createElement('img', {src: this.props.img, alt:this.props.name} ),
+                    );
+                }
+            })
+
+            ReactDOM.render(
+                React.createElement(HellComponent, { name: '111', img: 'http://qnimate.com/wp-content/uploads/2014/03/images2.jpg'}),
+                document.getElementById('root')
+            )
+        </script>
+</body>
+</html>
