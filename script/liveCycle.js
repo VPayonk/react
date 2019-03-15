@@ -7,13 +7,13 @@ const Counter = React.createClass({
 
     handlePlus() {
         this.setState({
-            num: this.state.num + 1
+            num: this.state.num + 2
         });
     },
 
     handleMinus() {
         this.setState({
-            num: this.state.num - 1
+            num: this.state.num - 2
         });
     },
 
