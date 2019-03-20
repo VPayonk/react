@@ -12,6 +12,12 @@
     "emoji-green-heart": "^1.2.1"
   },
   "devDependencies": {
-    "webpack": "^4.29.6"
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   }
 }
